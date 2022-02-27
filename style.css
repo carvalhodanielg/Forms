@@ -1,0 +1,105 @@
+ *{
+    margin: 5px;
+    padding: 0;
+    font-family: sans-serif;
+
+ }
+
+   
+
+ body{
+     background-color: rgb(70, 76, 95);
+     display: flex;
+     justify-content: center;
+ }
+
+ #titulo{
+   color: whitesmoke;
+   text-align: right;
+   position: absolute;  
+    margin: 20px;
+ }
+
+
+
+ #campo {
+     font-family: sans-serif;
+     color: blueviolet;
+ }
+
+#legenda {
+    
+    text-align: center;
+}
+
+.description{
+    margin: 0 auto;
+    color: rgb(2, 44, 100);
+    
+    /* display: flex;
+    justify-content: center;
+    text-align: center;
+    */
+
+}
+
+.linha{
+   background-color: #CCBBFF;
+    position:absolute;
+    width: 250px;
+    height: 5px;
+    margin-top: 95px;
+}
+
+fieldset{
+
+    padding: 20px;
+    background-color: rgb(239, 242, 245);
+    margin: 80px;
+    
+
+}
+
+label{
+
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+input{
+    font-family: sans-serif;
+    background-color:rgb(233, 233, 233);
+    border-radius: 5px;
+    height: 30px;
+}
+
+textarea{
+    font-family: sans-serif;
+    background-color:rgb(233, 233, 233);
+    border-radius: 5px;
+  
+}
+
+.botao{
+ 
+    
+}
+
+
+
+#enviar{
+    width: 80px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+#enviar:hover{
+    background-color: #CCBBFF ;
+
+}
+
+::placeholder{
+    color: rgba(0, 0, 0, 0.336);
+    text-align: center;
+    
+}
